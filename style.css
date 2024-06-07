@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --primcolor:#bEE;
+    --seccolor:rgb(159, 232, 250);
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 23;
+}
+
+    
+
+
+nav{
+    display: flex;
+    justify-content: start;
+    background-color: white; 
+    width: 100vw;
+    height: 10vh;
+    
+    
+}
+
+
+
+ul{
+    display: flex;
+
+}
+.main ul li{
+list-style: none;
+}
+.main ul li a{
+     display: block; 
+    padding: 16px 35px;
+    margin: 0px 11px;
+text-decoration: none; 
+font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  flex-wrap: wrap;
+  }
+  .main ul li a:hover{
+    color: rgba(10, 241, 222, 0.486);
+    text-shadow: 0px 10px 10px rgb(126, 170, 155);
+    /* border:  rgba(10, 241, 222, 0.486; */
+  }
+  .item button:hover{
+    color: rgba(3, 3, 3, 0.979);
+    text-shadow: 0px 10px 10px rgba(50, 54, 53, 0.438);
+    background-color: rgb(128, 162, 167);
+    cursor: pointer;
+    /* margin: 12px; */
+
+  }
+  
+  
+.main ul li button{
+    padding: 6px 50px;
+  margin: 12px 80px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  border-radius: 12px;
+}
+.main ul li img{
+    width: 23px;
+    padding: 16px 50px; 
+}
+
+    
+
+.body button:hover{
+    background-color: rgb(190, 174, 148);
+     border-radius: 52px; 
+}
+.body button{
+    border-radius: 42px;
+    font: 23px;
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+
+.body{
+    background-image: url("pics/pexels-fauxels-3184160.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-size: max(1000px, 100vw);
+position: relative;
+    background-repeat: no-repeat;
+  width: 100vw;  
+height: 100vh; 
+opacity: 0.8;
+
+}
+.head{
+    background-color: var(--primcolor);
+    border-radius: 23px;
+    font-size: 23px;
+    margin: 35px;
+    padding: 20px;
+    color:black ;
+
+}
+
+
+.body h1{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 10px 10px 10px rgb(53, 55, 56);
+}
+.body p{
+   font-size: 23px;
+   justify-content: center;
+   /* padding: 0px 23px; */
+   margin: 0px 112px ;
+   font-family: "Poetsen One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+}
+.body> div button{
+    justify-content: center;
+    align-items: center;
+    padding: 24px 42px;
+    margin: 83px 162px;
+    font-size: 15px;
+    /* background-color: rgba(23, 23, 23, 0.7); */
+}
+
+#services{
+    margin: 50px;
+    display: flex;
+    
+}
+
+
+ #services .box{
+    border: 3px solid rgb(159, 232, 250);
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 2px 23px;
+ }
+ #services .box h2{
+    text-align: center;
+ }
+#services .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+    padding: 23px;
+}
+
+.first{
+    display: flex;
+    /* justify-content: center; */
+    /* max-width: 77%; */
+    /* margin: auto; */
+    color: white;
+    /* justify-content: center; */
+    align-items: center; 
+    /* flex-wrap: wrap; */
+
+    background-color:var(--primcolor);
+    height: 70vh;
+}
+
+.first img{
+    width: 30%;
+    margin: 10px 75px;
+
+}
+.image2 img{
+    width: 15%;
+    position: absolute;
+    /* margin: -282px; */
+    left: 280px;
+    margin: 72px;
+}
+
+.first span{
+    color: rgb(8, 8, 8);
+display: flex;
+flex-direction: column;
+margin: 19px 194px;
+    
+}
+.first .head{
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+}
+.btn button{
+    padding: 18px 0px;
+    border-radius: 15px;
+    background-color: mintcream;
+    font-size: 23px;
+    
+}
+.third{
+    /* background-color: rgb(255, 185, 127); */
+    height:60vh;
+}
+.third h2{
+    text-align: center;
+    margin: 60px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--seccolor);
+    text-shadow: 0px 10px 10px var(--primcolor);
+}
+.div img{
+    width: 8%;
+    /* filter: saturate(); */
+    border: 2px solid whitesmoke;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+    margin: 25px 70px;
+}
+.div img:hover{
+    filter: saturate(100%);
+    width: 10%;
+}
+.div a{
+    /* color: black; */
+    text-shadow: 10px 10px 10px var(--primcolor);
+    font-family: "Poetsen One", sans-serif;
+}
+.forth{
+    background-color: var(--primcolor);
+    height: 60vh;
+    margin: 90px 0px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.forth button{
+    margin: 23px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: var(--seccolor);
+}
+.fi h2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+}
+.fi p{
+    margin: 8px 23px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 23px 53px;
+}
+.fifth{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 23px;
+    margin: 0px 78px;
+
+}
+.footer a:hover{
+    text-shadow: 0px 0px 10px rgba(128, 128, 128, 0.993);
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+
+}
+.footeritem footer{
+    text-align: center;
+    background-color: aquamarine;
+    height: 10%;
+    margin: 12px 0px;
+    padding: 9px 0px;
+}
+
+
+
+
+
